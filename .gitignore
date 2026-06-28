@@ -1,0 +1,22 @@
+# Ignore all environment variables in this project securely
+.env
+.env.*
+!.env.example
+
+# Common Node and Next.js ignores
+node_modules/
+.next/
+out/
+build/
+coverage/
+.nyc_output
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
